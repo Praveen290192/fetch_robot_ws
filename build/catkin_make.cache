@@ -1,0 +1,2 @@
+fetch_gazebo/fetch_gazebo:fetch_gazebo/fetch_gazebo_demo:fetch_gazebo/fetch_simulation:fetch_gazebo/fetchit_challenge:pysdf
+-DCATKIN_DEVEL_PREFIX=/home/ubuntu18/zebra_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntu18/zebra_ws/install -G Unix Makefiles
