@@ -24,16 +24,19 @@
 * Running demo.launch for Fetch robot and saving bag files
   * Name of topics recorded
      ```
-     /base_scan
-     /odom
      /amcl_pose
-     /head_camera/rgb/image_raw
-     /head_camera/depth_registered/points
-     /tf
-     /teleop/cmd_vel
+     /base_scan
+     /clock
      /cmd_vel
+     /head_camera/depth_registered/points
+     /head_camera/rgb/image_raw
+     /joint_states
+     /odom
+     /rosout
+     /rosout_agg
+     /tf
      ```
-     [Link for bag file](https://drive.google.com/file/d/1dF29B1DyZxwbcWADXn-VZJzXUp8jGLmF/view?usp=sharing)
+     [Link for bag file](https://drive.google.com/file/d/1AKlEBu3DUtMTTc23wiNYlKvnX_cA93E6/view?usp=sharing)
   * Running modified Freight robot with 3D camera inside the warehouse world
     * Images for modified Freight robot
 
@@ -41,14 +44,17 @@
       * Gazebo Isometric View ![Gazebo Isometric View](https://github.com/Praveen290192/zebra_ws/blob/main/src/fetch_gazebo/fetch_gazebo/images/2.c.i%20modified%20Freight%202.PNG)
       * Rviz Image ![Rviz Image](https://github.com/Praveen290192/zebra_ws/blob/main/src/fetch_gazebo/fetch_gazebo/images/2.c.i%20modified%20Freight%203.PNG)
     
-    * [Link for the bag files](https://drive.google.com/file/d/1yhOHFRI9tagPulKArwDOjiD_xF2rgwU-/view?usp=sharing)
+    * [Link for the bag files](https://drive.google.com/file/d/1QUAMrxohTHVWMyMVbbG7K7VK8WKB6rc4/view?usp=sharing)
          ```
+        /base_camera/depth_registered/points
+        /base_camera/rgb/image_raw
         /base_scan
-        /odom
-        /head_camera/rgb/image_raw
-        /head_camera/depth_registered/points
-        /tf
-        /teleop/cmd_vel
+        /clock
         /cmd_vel
+        /joint_states
+        /odom
+        /rosout
+        /rosout_agg
+        /tf
          ```
  
