@@ -1,6 +1,6 @@
-# Fetch_Robot
+# Fetch Robot in Gazebo Simulation Environment. 
 
-## Task1
+## Creating Warehouse in Gazebo Environment
 * Images of world
   * Isometric View ![Isometric View](https://github.com/Praveen290192/zebra_ws/blob/main/src/fetch_gazebo/fetch_gazebo/images/1.a.IsometricView.PNG) 
   * Top View ![Top View](https://github.com/Praveen290192/zebra_ws/blob/main/src/fetch_gazebo/fetch_gazebo/images/1.a.TopView.PNG)
@@ -8,7 +8,7 @@
 * Path for the world file
    [warehouse](https://github.com/Praveen290192/zebra_ws/blob/58b5017a102c906ec5d096ca55edf4cb45d9b0bc/src/fetch_gazebo/fetch_gazebo/worlds/warehouse.sdf )
 
-## Task2
+## Adding Stereo Camera and reading sensor data in rviz
 * Modifing Freight robot
   * Images for Freight robot in rviz env
     * Freight RViz Image ![Freight RViz image](https://github.com/Praveen290192/zebra_ws/blob/main/src/fetch_gazebo/fetch_gazebo/images/2.a.i%20rviz%20freight%20robot.PNG)
